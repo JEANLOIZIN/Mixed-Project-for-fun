@@ -1,0 +1,45 @@
+#include <cstdlib> 
+#include <ctime> 
+#include <iostream>
+
+using namespace std;
+
+template <class elemType>
+void bubbleSort(elemType list[], int length)
+{
+for (int iteration = 1; iteration < length; iteration++)
+{
+for (int index = 0; index < length - iteration;
+index++)
+{
+if (list[index] > list[index + 1])
+{
+elemType temp = list[index];
+list[index] = list[index + 1];
+list[index + 1] = temp;
+}
+}
+}
+}
+
+
+int main() 
+{ 
+    srand((unsigned)time(0));  
+	int arr1[1000], arr2[1000];
+	int steps_seq, steps_binary;
+	for(int index=0; index<1000; index++){ 
+        arr1[index] = (rand()%1000)+1;
+		arr2[index] = arr1[index];
+        //cout << arr1[index]<<" "; 
+    }
+	
+	
+	
+	cout << "\n"<< endl;
+	cout << "3: The created list had been sorted\n " << endl;
+
+	cout << " Now searching the list by a binary search " << endl;
+	
+
+	system("pause");

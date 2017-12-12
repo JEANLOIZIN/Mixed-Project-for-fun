@@ -1,0 +1,24 @@
+﻿Build started 11/12/2012 3:39:22 PM.
+     1>Project "C:\Users\Jean Loizin\Desktop\Experiment\Project four\Project four.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Project four.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt file.cpp
+         file.cpp
+     1>c:\users\jean loizin\desktop\experiment\project four\file.cpp(78): warning C4620: no postfix form of 'operator ++' found for type 'clockType', using prefix form
+                 c:\users\jean loizin\desktop\experiment\project four\clocktype.h(11) : see declaration of 'clockType'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jean Loizin\Desktop\Experiment\Debug\Project four.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project four.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jean Loizin\Desktop\Experiment\Debug\Project four.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jean Loizin\Desktop\Experiment\Debug\Project four.lib" /MACHINE:X86 Debug\clocktype.obj
+         Debug\file.obj
+         LINK : C:\Users\Jean Loizin\Desktop\Experiment\Debug\Project four.exe not found or not built by the last incremental link; performing full link
+         Project four.vcxproj -> C:\Users\Jean Loizin\Desktop\Experiment\Debug\Project four.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Jean Loizin\Desktop\Experiment\Debug\Project four.exe;#1" /manifest "Debug\Project four.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Project four.unsuccessfulbuild".
+         Touching "Debug\Project four.lastbuildstate".
+     1>Done Building Project "C:\Users\Jean Loizin\Desktop\Experiment\Project four\Project four.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.92

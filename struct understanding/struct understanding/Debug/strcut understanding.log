@@ -1,0 +1,17 @@
+﻿Build started 1/30/2012 5:35:18 PM.
+     1>Project "G:\strcut understanding\strcut understanding\strcut understanding.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\struct understanding.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         strcut understanding.vcxproj -> G:\strcut understanding\Debug\struct understanding.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\struct understanding.unsuccessfulbuild".
+         Touching "Debug\struct understanding.lastbuildstate".
+     1>Done Building Project "G:\strcut understanding\strcut understanding\strcut understanding.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.23

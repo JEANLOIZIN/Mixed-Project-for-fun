@@ -1,0 +1,17 @@
+﻿Build started 12/13/2012 11:10:31 AM.
+     1>Project "C:\Users\Jean Loizin\Desktop\Project 7\Project 7\Project 7.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Jean Loizin\Desktop\Project 7\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Project 7.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Project 7.exe.embed.manifest.res" "Debug\Project 7_manifest.rc" 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jean Loizin\Desktop\Project 7\Debug\Project 7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project 7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jean Loizin\Desktop\Project 7\Debug\Project 7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jean Loizin\Desktop\Project 7\Debug\Project 7.lib" /MACHINE:X86 "Debug\Project 7.exe.embed.manifest.res"
+     1>LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+     1>C:\Users\Jean Loizin\Desktop\Project 7\Debug\Project 7.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Jean Loizin\Desktop\Project 7\Project 7\Project 7.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.73

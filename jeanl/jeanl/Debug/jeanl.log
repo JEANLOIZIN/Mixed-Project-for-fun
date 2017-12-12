@@ -1,0 +1,14 @@
+﻿Build started 10/4/2016 11:43:13 PM.
+     1>Project "C:\Users\Geek\Desktop\jeanl\jeanl\jeanl.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\geek\desktop\jeanl\jeanl\source.cpp(106): error C2043: illegal break
+     1>c:\users\geek\desktop\jeanl\jeanl\source.cpp(110): error C2059: syntax error : 'return'
+     1>c:\users\geek\desktop\jeanl\jeanl\source.cpp(111): error C2059: syntax error : '}'
+     1>c:\users\geek\desktop\jeanl\jeanl\source.cpp(111): error C2143: syntax error : missing ';' before '}'
+     1>Done Building Project "C:\Users\Geek\Desktop\jeanl\jeanl\jeanl.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.58
